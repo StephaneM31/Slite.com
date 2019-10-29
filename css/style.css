@@ -1,7 +1,7 @@
 body {
     background: white;
     min-width: 900px;
-    font-family: FixEmoji,Geomanist,sans-serif;
+    font-family: apple-system,system-ui,BlinkMacSystemFont,Roboto,Arial, sans-serif;
 }
 
 .menu {
@@ -16,7 +16,7 @@ body {
     margin-top: 1%;
     background-color: white;
 	text-align: center;
-    color: black;
+    color: #92929C;
 }
 
 .logo {
@@ -34,4 +34,43 @@ body {
     font-size: 300%;
     font-weight: bold;
 }
+
+.txt2 {
+    perspective: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    color: #92929C;
+}
+
+.startforfree {
+    display: inline-block;
+    width: 1000px;
+}
+
+.champmail {
+    display: inline-block;
+    border-radius: 50px;
+    line-height: 50px; 
+    width: 400px;
+    box-shadow: -1px 5px 15px;
+}
+
+.btncontact {
+    display: inline-block;
+    border-radius:50px;
+    line-height: 50px; 
+    width:150px;
+    text-align:center;
+    background: #5168EC;
+    color:white;
+    box-shadow: -1px 5px 15px;
+}
+
+
+
+
 
