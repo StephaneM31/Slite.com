@@ -10,10 +10,15 @@ a {
     text-decoration: none;
 }
 
-.content {
+section {
     max-width: 1920px;
     min-width: 900px;
+    width: 100%;
     margin: 0 auto;
+}
+
+nav {
+    height: 100px;
 }
 
 /* menu */
@@ -40,52 +45,40 @@ a {
     margin: 30px 0 0 40px;
 }
 
-/* page*/
-.txt1 {
-    perspective: 1000px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+/* intro*/
+.intro {
     text-align: center;
-    padding-top: 10%;
-    font-size: 300%;
+    margin-bottom: 20px;
+}
+.intro h1 {
+    margin-top: 75px;
+    font-size: 47.5px;
     font-weight: bold;
 }
 
-.txt2 {
-    perspective: 1000px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 130%;
+.intro h2 {
+    font-size: 20px;
     font-weight: bold;
     color: #92929C;
 }
 
-.startforfree {
-    display: inline-block;
-    width: 1000px;
-}
-
 .champmail {
-    display: inline-block;
+    border: 0;
     border-radius: 50px 0 0 50px;
-    line-height: 50px; 
-    width: 400px;
+    height: 50px; 
+    width: 350px;
     box-shadow: -1px 5px 15px;
-    margin: 0 -5% 5% 10%;
+    margin: 20px -80px 0 0;
+    padding-left: 20px;
 }
 
 .btncontact {
     display: inline-block;
     border-radius: 50px;
-    line-height: 50px; 
+    padding: 17px 0; 
     width: 150px;
-    text-align: center;
     background: #5168EC;
     color:white;
-    margin: 0 0 5% 0;
     box-shadow: -1px 5px 15px;
 }
 
@@ -95,23 +88,22 @@ a {
 
 .img1 {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .wiki {
-    display: inline-block;
-    position: inline;
     float: left;
     width: 40%;
     height: 40%;
-    margin: 7.5% 15% auto 7.5%;
-    box-shadow: -1px 5px 15px;
-    border-radius: 50px 50px 50px 50px;
+    margin-left: 35px;
+    padding: 20px;
+    box-shadow: -1px 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
 }
 
 .imgwiki {
     max-width: 100%;
     max-height: 100%;
-    padding: 5% 5% 10% 0;
 }
 
 
