@@ -1,5 +1,7 @@
 body {
     background: white;
+    min-width: 900px;
+    font-family: FixEmoji,Geomanist,sans-serif;
 }
 
 .menu {
@@ -20,5 +22,16 @@ body {
 .logo {
     float: left;
     margin-left: 3%;
+}
+
+.txt1 {
+    perspective: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 300%;
+    font-weight: bold;
 }
 
