@@ -7,13 +7,12 @@ body {
 .menu {
     display: inline-block;
     float: right;
-    margin-right: 5%;
+    margin: 3% 10% 0 10%;
 }
 
 .elem_menu {
     display: inline-block;
     width: 100px;
-    margin-top: 1%;
     background-color: white;
 	text-align: center;
     color: #92929C;
@@ -21,7 +20,7 @@ body {
 
 .logo {
     float: left;
-    margin-left: 3%;
+    margin: 3% 0 0 10%;
 }
 
 .txt1 {
@@ -53,22 +52,50 @@ body {
 
 .champmail {
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 50px 0 0 50px;
     line-height: 50px; 
     width: 400px;
     box-shadow: -1px 5px 15px;
+    margin: 0 -5% 5% 10%;
 }
 
 .btncontact {
     display: inline-block;
-    border-radius:50px;
+    border-radius: 50px;
     line-height: 50px; 
-    width:150px;
-    text-align:center;
+    width: 150px;
+    text-align: center;
     background: #5168EC;
     color:white;
+    margin: 0 0 5% 0;
     box-shadow: -1px 5px 15px;
 }
+
+.btncontact:hover {
+    background: rgb(139, 154, 241);
+}
+
+.img1 {
+    width: 100%;
+}
+
+.wiki {
+    display: inline-block;
+    position: inline;
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin: 7.5% 15% auto 7.5%;
+    box-shadow: -1px 5px 15px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.imgwiki {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5% 5% 10% 0;
+}
+
 
 
 
