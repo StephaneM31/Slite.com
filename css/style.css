@@ -1,0 +1,16 @@
+body {
+    background: white;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.elem_menu{
+	display: inline-block;
+    width: 100px;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	color: black 
+}
