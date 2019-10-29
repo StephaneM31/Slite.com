@@ -4,13 +4,21 @@ body {
 
 .menu {
     display: inline-block;
+    float: right;
+    margin-right: 5%;
 }
 
-.elem_menu{
-	display: inline-block;
+.elem_menu {
+    display: inline-block;
     width: 100px;
-	padding: 10px;
-	background-color: white;
+    margin-top: 1%;
+    background-color: white;
 	text-align: center;
-	color: black 
+    color: black;
 }
+
+.logo {
+    float: left;
+    margin-left: 3%;
+}
+
