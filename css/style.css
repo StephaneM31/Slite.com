@@ -92,11 +92,10 @@ nav {
 }
 
 /* section click*/
-.click p {
+.click h3 {
     display: inline-block;
     float: right;
-    margin: 0 100px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -106,24 +105,37 @@ nav {
     margin-left: 60px;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
+    background-color: white;
 }
 
 .notes {
-    position: absolute;
-    z-index: 1;
-    box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
-}
-
-.wiki {
     position: absolute;
     z-index: 2;
     box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
 }
 
-.tasks {
+.wiki {
     position: absolute;
     z-index: 3;
     box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
+}
+
+.tasks {
+    position: absolute;
+    z-index: 4;
+    box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
+}
+
+.back {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(240, 242, 250);
+    width: 42%;
+    height: 95%;
+    box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
+    margin: -30px 0 0 30px;
+    border-radius: 10px;
 }
 
 .imgnotes {
@@ -143,36 +155,49 @@ nav {
 
 .btn {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     float: right;
+    border-radius: 10px;
     width: 350px;
-    margin: 5%  10% 0 50%;
+    margin: 0 5%;
 }
 
 .btn div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 150px; 
     border-radius: 10px;
     box-shadow: -1px 5px 15px rgba(0,0,0,0.20);
-    padding: 20px 40px 0 40px;
-    margin-top: 10px;
+    padding: 0 40px 0 40px;
+    margin-top: 25px;
 }
 
-p1 {
+.p1 {
     color: #5168EC;
     font-size: 11px;
     line-height: 1.6em;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-weight: 700;
+    margin: 0;
 }
 
-p2 {
+.p2 {
     font-size: 18px;
     line-height: 1.5em;
     font-weight: 500;
+    margin: 0;
 }
 
-p3 {
+.p3 {
     font-size: 11px;
     font-weight: 500;
+    margin: 0;
+}
+
+.btn2 {
+    text-align: center;
+    margin-top: 30px;
 }
